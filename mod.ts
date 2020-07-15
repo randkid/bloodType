@@ -1,3 +1,3 @@
-import {nominal} from "https://raw.githubusercontent.com/randkid/Randkid/master/mod.ts"
+import {weightedList} from "https://raw.githubusercontent.com/randkid/Randkid/master/mod.ts"
 
-export default await nominal("./bloodType.csv")
+export default await weightedList("./bloodType.csv")
