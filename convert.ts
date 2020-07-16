@@ -1,3 +1,3 @@
-import {weightedList} from "https://raw.githubusercontent.com/randkid/Wrap/master/mod.ts"
+import {weightedList} from "./deps.ts"
 
 await weightedList.convert("data.csv", "data.js")
